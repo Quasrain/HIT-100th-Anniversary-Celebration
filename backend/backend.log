@@ -1,0 +1,656 @@
+Not Found: /
+[pid: 28661|app: 0|req: 2/2] 174.82.251.233 () {28 vars in 308 bytes} [Tue May 12 15:11:08 2020] GET / => generated 2547 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /TP/public/index.php
+[pid: 28661|app: 0|req: 3/3] 183.56.152.172 () {34 vars in 501 bytes} [Tue May 12 15:27:12 2020] GET /TP/public/index.php => generated 2622 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /TP/index.php
+[pid: 28661|app: 0|req: 4/4] 183.56.152.172 () {34 vars in 487 bytes} [Tue May 12 15:27:12 2020] GET /TP/index.php => generated 2601 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /thinkphp/html/public/index.php
+[pid: 28661|app: 0|req: 5/5] 183.56.152.172 () {34 vars in 523 bytes} [Tue May 12 15:27:12 2020] GET /thinkphp/html/public/index.php => generated 2655 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /html/public/index.php
+[pid: 28661|app: 0|req: 6/6] 183.56.152.172 () {34 vars in 505 bytes} [Tue May 12 15:27:12 2020] GET /html/public/index.php => generated 2628 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /public/index.php
+[pid: 28661|app: 0|req: 7/7] 183.56.152.172 () {34 vars in 495 bytes} [Tue May 12 15:27:12 2020] GET /public/index.php => generated 2613 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /TP/html/public/index.php
+[pid: 28661|app: 0|req: 8/8] 183.56.152.172 () {34 vars in 511 bytes} [Tue May 12 15:27:12 2020] GET /TP/html/public/index.php => generated 2637 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /elrekt.php
+[pid: 28661|app: 0|req: 9/9] 183.56.152.172 () {34 vars in 483 bytes} [Tue May 12 15:27:12 2020] GET /elrekt.php => generated 2595 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index.php
+[pid: 28661|app: 0|req: 10/10] 183.56.152.172 () {34 vars in 481 bytes} [Tue May 12 15:27:12 2020] GET /index.php => generated 2592 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 11/11] 183.56.152.172 () {34 vars in 466 bytes} [Tue May 12 15:27:12 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 12/12] 106.75.184.38 () {38 vars in 614 bytes} [Tue May 12 15:27:39 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /nmaplowercheck1589300390
+[pid: 28661|app: 0|req: 13/13] 101.133.224.19 () {32 vars in 532 bytes} [Tue May 12 16:20:02 2020] GET /nmaplowercheck1589300390 => generated 2637 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /evox/about
+[pid: 28661|app: 0|req: 14/14] 101.133.224.19 () {32 vars in 504 bytes} [Tue May 12 16:20:02 2020] GET /evox/about => generated 2595 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /sdk
+[pid: 28661|app: 0|req: 15/15] 101.133.224.19 () {34 vars in 520 bytes} [Tue May 12 16:20:02 2020] POST /sdk => generated 2575 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /HNAP1
+[pid: 28661|app: 0|req: 16/16] 101.133.224.19 () {32 vars in 494 bytes} [Tue May 12 16:20:11 2020] GET /HNAP1 => generated 2580 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 17/17] 101.133.224.19 () {28 vars in 308 bytes} [Tue May 12 16:20:23 2020] GET / => generated 2547 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 18/18] 223.31.219.46 () {34 vars in 393 bytes} [Tue May 12 16:47:03 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /portal/redlion
+[pid: 28661|app: 0|req: 19/19] 162.243.141.150 () {34 vars in 423 bytes} [Tue May 12 18:41:15 2020] GET /portal/redlion => generated 2607 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /app/member/show/Json/BaseBall.php
+[pid: 28661|app: 0|req: 20/20] 221.1.221.37 () {36 vars in 522 bytes} [Tue May 12 20:24:30 2020] GET /app/member/show/Json/BaseBall.php?leaguename=1 => generated 2677 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 21/21] 143.255.243.18 () {32 vars in 465 bytes} [Tue May 12 20:44:30 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 22/22] 191.241.49.62 () {32 vars in 464 bytes} [Tue May 12 20:46:06 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 23/23] 115.205.13.198 () {28 vars in 308 bytes} [Tue May 12 20:55:25 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 24/24] 198.108.66.176 () {34 vars in 394 bytes} [Tue May 12 22:50:29 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 25/25] 198.108.66.249 () {34 vars in 394 bytes} [Tue May 12 23:35:00 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 26/26] 47.100.26.147 () {34 vars in 459 bytes} [Wed May 13 00:06:29 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 27/27] 45.228.254.71 () {32 vars in 463 bytes} [Wed May 13 02:05:53 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 28/28] 122.238.122.47 () {40 vars in 720 bytes} [Wed May 13 02:08:14 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 29/29] 45.4.252.19 () {32 vars in 468 bytes} [Wed May 13 02:08:14 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 28661|app: 0|req: 30/30] 122.238.122.47 () {40 vars in 659 bytes} [Wed May 13 02:08:14 2020] GET /favicon.ico => generated 2598 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /addComment
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 12, in addComment
+    comment.Name = tmp[2]
+IndexError: list index out of range
+[pid: 28661|app: 0|req: 31/31] 122.238.122.47 () {42 vars in 764 bytes} [Wed May 13 02:08:31 2020] GET /addComment => generated 58539 bytes in 25 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+[pid: 28661|app: 0|req: 32/32] 122.238.122.47 () {40 vars in 730 bytes} [Wed May 13 02:08:33 2020] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 145 bytes (2 switches on core 0)
+[pid: 28661|app: 0|req: 33/33] 122.238.122.47 () {40 vars in 732 bytes} [Wed May 13 02:08:33 2020] GET /admin/ => generated 0 bytes in 13 msecs (HTTP/1.1 302) 8 headers in 301 bytes (2 switches on core 0)
+[pid: 28661|app: 0|req: 34/34] 122.238.122.47 () {40 vars in 769 bytes} [Wed May 13 02:08:33 2020] GET /admin/login/?next=/admin/ => generated 1913 bytes in 22 msecs (HTTP/1.1 200) 8 headers in 431 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 28661|app: 0|req: 35/35] 122.238.122.47 () {42 vars in 782 bytes} [Wed May 13 02:08:34 2020] GET /static/admin/css/login.css => generated 2643 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 28661|app: 0|req: 36/36] 122.238.122.47 () {42 vars in 780 bytes} [Wed May 13 02:08:34 2020] GET /static/admin/css/base.css => generated 2640 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 28661|app: 0|req: 37/37] 122.238.122.47 () {42 vars in 792 bytes} [Wed May 13 02:08:34 2020] GET /static/admin/css/responsive.css => generated 2658 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 38/38] 128.14.133.58 () {34 vars in 487 bytes} [Wed May 13 03:51:46 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 39/39] 36.90.153.209 () {32 vars in 470 bytes} [Wed May 13 05:50:14 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 40/40] 5.202.143.92 () {32 vars in 463 bytes} [Wed May 13 08:28:28 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 41/41] 71.6.232.4 () {34 vars in 484 bytes} [Wed May 13 08:48:47 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 42/42] 46.102.81.21 () {32 vars in 463 bytes} [Wed May 13 11:23:53 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 43/43] 45.21.252.165 () {30 vars in 436 bytes} [Wed May 13 14:08:25 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 44/44] 151.234.131.124 () {32 vars in 466 bytes} [Wed May 13 14:12:36 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /ab2g
+[pid: 28661|app: 0|req: 45/45] 139.162.145.250 () {34 vars in 439 bytes} [Wed May 13 14:43:58 2020] GET /ab2g => generated 2577 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 46/46] 104.199.36.222 () {42 vars in 563 bytes} [Wed May 13 16:30:35 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /sdk
+[pid: 28661|app: 0|req: 47/47] 101.133.149.35 () {34 vars in 520 bytes} [Wed May 13 17:02:29 2020] POST /sdk => generated 2575 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /nmaplowercheck1589389348
+[pid: 28661|app: 0|req: 48/48] 101.133.149.35 () {32 vars in 532 bytes} [Wed May 13 17:02:38 2020] GET /nmaplowercheck1589389348 => generated 2637 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /HNAP1
+[pid: 28661|app: 0|req: 49/49] 101.133.149.35 () {32 vars in 494 bytes} [Wed May 13 17:02:39 2020] GET /HNAP1 => generated 2580 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /evox/about
+[pid: 28661|app: 0|req: 50/50] 101.133.149.35 () {32 vars in 504 bytes} [Wed May 13 17:02:42 2020] GET /evox/about => generated 2595 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 51/51] 101.133.149.35 () {28 vars in 308 bytes} [Wed May 13 17:03:01 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 52/52] 195.205.161.9 () {32 vars in 463 bytes} [Wed May 13 18:37:00 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 53/53] 198.108.66.215 () {34 vars in 394 bytes} [Wed May 13 19:58:34 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 54/54] 177.36.176.171 () {32 vars in 465 bytes} [Wed May 13 20:47:04 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 55/55] 90.183.11.138 () {32 vars in 470 bytes} [Wed May 13 21:51:40 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 56/56] 198.108.66.199 () {34 vars in 394 bytes} [Wed May 13 22:05:57 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 57/57] 88.250.227.181 () {32 vars in 464 bytes} [Wed May 13 23:26:54 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 58/58] 159.203.81.93 () {42 vars in 593 bytes} [Wed May 13 23:34:21 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 59/59] 106.14.143.216 () {34 vars in 460 bytes} [Thu May 14 03:00:26 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 60/60] 78.186.12.88 () {32 vars in 462 bytes} [Thu May 14 05:50:01 2020] GET / => generated 2550 bytes in 30 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 61/61] 172.104.108.109 () {34 vars in 391 bytes} [Thu May 14 08:29:22 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 62/62] 88.249.242.111 () {32 vars in 471 bytes} [Thu May 14 08:52:19 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 63/63] 85.110.124.16 () {32 vars in 464 bytes} [Thu May 14 08:54:48 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 64/64] 109.72.227.108 () {32 vars in 464 bytes} [Thu May 14 09:22:56 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 65/65] 37.112.63.74 () {32 vars in 463 bytes} [Thu May 14 12:33:28 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 66/66] 41.57.110.165 () {32 vars in 463 bytes} [Thu May 14 12:48:33 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 67/67] 128.14.134.170 () {34 vars in 488 bytes} [Thu May 14 12:57:00 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /ReportServer
+[pid: 28661|app: 0|req: 68/68] 162.243.142.133 () {34 vars in 419 bytes} [Thu May 14 13:44:21 2020] GET /ReportServer => generated 2601 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 69/69] 191.242.246.148 () {32 vars in 465 bytes} [Thu May 14 16:03:53 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 70/70] 14.223.52.61 () {38 vars in 490 bytes} [Thu May 14 16:30:07 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 71/71] 139.162.106.181 () {32 vars in 401 bytes} [Thu May 14 16:41:47 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 72/72] 198.108.66.250 () {34 vars in 394 bytes} [Thu May 14 18:13:13 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 73/73] 154.72.161.223 () {32 vars in 464 bytes} [Thu May 14 18:39:11 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /nmaplowercheck1589482543
+[pid: 28661|app: 0|req: 74/74] 101.133.138.230 () {32 vars in 533 bytes} [Thu May 14 18:55:44 2020] GET /nmaplowercheck1589482543 => generated 2637 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /evox/about
+[pid: 28661|app: 0|req: 75/75] 101.133.138.230 () {32 vars in 505 bytes} [Thu May 14 18:55:44 2020] GET /evox/about => generated 2595 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /sdk
+[pid: 28661|app: 0|req: 76/76] 101.133.138.230 () {34 vars in 521 bytes} [Thu May 14 18:55:55 2020] POST /sdk => generated 2575 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /HNAP1
+[pid: 28661|app: 0|req: 77/77] 101.133.138.230 () {32 vars in 495 bytes} [Thu May 14 18:56:04 2020] GET /HNAP1 => generated 2580 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 78/78] 101.133.138.230 () {28 vars in 309 bytes} [Thu May 14 18:56:16 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 79/79] 101.251.242.238 () {38 vars in 597 bytes} [Thu May 14 20:04:41 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 80/80] 198.20.103.178 () {34 vars in 488 bytes} [Thu May 14 21:08:26 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 81/81] 47.98.105.49 () {34 vars in 415 bytes} [Thu May 14 21:53:46 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 82/82] 94.73.245.141 () {32 vars in 463 bytes} [Thu May 14 23:00:07 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 83/83] 193.118.53.210 () {34 vars in 488 bytes} [Fri May 15 00:07:42 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 84/84] 2.184.38.128 () {32 vars in 463 bytes} [Fri May 15 00:26:03 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /editBlackAndWhiteList
+[pid: 28661|app: 0|req: 85/85] 80.82.78.104 () {46 vars in 666 bytes} [Fri May 15 02:25:44 2020] POST /editBlackAndWhiteList => generated 2632 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 86/86] 206.248.97.249 () {28 vars in 308 bytes} [Fri May 15 04:12:55 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 87/87] 190.122.159.32 () {32 vars in 465 bytes} [Fri May 15 04:56:53 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 88/88] 106.75.189.104 () {30 vars in 329 bytes} [Fri May 15 05:07:36 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.0 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 28661|app: 0|req: 89/89] 178.128.209.168 () {34 vars in 395 bytes} [Fri May 15 06:20:48 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 17 21:41:33 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x56528ff9bc60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56528ff9bc60 pid: 10401 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10401)
+spawned uWSGI worker 1 (pid: 10402, cores: 1)
+Internal Server Error: /lottery
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 76, in lottery
+    res.append(data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment)
+TypeError: append() takes exactly one argument (4 given)
+[pid: 10402|app: 0|req: 1/1] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:41:35 2020] GET /lottery => generated 59944 bytes in 59 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 10402|app: 0|req: 2/2] 122.238.121.132 () {46 vars in 809 bytes} [Sun May 17 13:41:35 2020] GET /favicon.ico => generated 2598 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Sun May 17 13:42:15 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 17 21:42:21 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55955b23cc60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55955b23cc60 pid: 10411 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10411)
+spawned uWSGI worker 1 (pid: 10412, cores: 1)
+Internal Server Error: /lottery
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'list' object has no attribute 'get'
+[pid: 10412|app: 0|req: 1/1] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:42:22 2020] GET /lottery => generated 52324 bytes in 57 msecs (HTTP/1.1 500) 4 headers in 133 bytes (2 switches on core 0)
+Sun May 17 13:42:52 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 17 21:42:56 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55a00e676c60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a00e676c60 pid: 10425 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10425)
+spawned uWSGI worker 1 (pid: 10426, cores: 1)
+[pid: 10426|app: 0|req: 1/1] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:42:57 2020] GET /lottery => generated 90 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+Internal Server Error: /lottery
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 76, in lottery
+    res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment])
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 296, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+[pid: 10426|app: 0|req: 2/2] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:43:03 2020] GET /lottery => generated 64203 bytes in 29 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Internal Server Error: /lottery
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 76, in lottery
+    res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment])
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 296, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+[pid: 10426|app: 0|req: 3/3] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:43:10 2020] GET /lottery => generated 64150 bytes in 26 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Internal Server Error: /lottery
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 76, in lottery
+    res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment])
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 296, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+[pid: 10426|app: 0|req: 4/4] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:43:43 2020] GET /lottery => generated 64144 bytes in 27 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+Sun May 17 13:43:46 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 17 21:43:47 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x558bed27ac60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x558bed27ac60 pid: 10433 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10433)
+spawned uWSGI worker 1 (pid: 10434, cores: 1)
+[pid: 10434|app: 0|req: 1/1] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:43:48 2020] GET /lottery => generated 90 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+[pid: 10434|app: 0|req: 2/2] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:43:52 2020] GET /lottery => generated 90 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 135 bytes (2 switches on core 0)
+[pid: 10434|app: 0|req: 3/3] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:43:53 2020] GET /lottery => generated 90 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 135 bytes (2 switches on core 0)
+Sun May 17 13:44:11 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 17 21:44:12 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x5647f4ef3c60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5647f4ef3c60 pid: 10438 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10438)
+spawned uWSGI worker 1 (pid: 10439, cores: 1)
+[pid: 10439|app: 0|req: 1/1] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:13 2020] GET /lottery => generated 106 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+Internal Server Error: /lottery
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 76, in lottery
+    res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment, data_top[x].Count])
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 296, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+[pid: 10439|app: 0|req: 2/2] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:17 2020] GET /lottery => generated 64251 bytes in 29 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Internal Server Error: /lottery
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 76, in lottery
+    res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment, data_top[x].Count])
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 296, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+[pid: 10439|app: 0|req: 3/3] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:39 2020] GET /lottery => generated 64251 bytes in 26 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+[pid: 10439|app: 0|req: 4/4] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:40 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10439|app: 0|req: 5/5] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:41 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10439|app: 0|req: 6/6] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:41 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10439|app: 0|req: 7/7] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:41 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10439|app: 0|req: 8/8] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:42 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+Internal Server Error: /lottery
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 76, in lottery
+    res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment, data_top[x].Count])
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 296, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+[pid: 10439|app: 0|req: 9/9] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:44:42 2020] GET /lottery => generated 64251 bytes in 25 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Sun May 17 13:45:07 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 17 21:45:08 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55903621cc60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55903621cc60 pid: 10446 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10446)
+spawned uWSGI worker 1 (pid: 10447, cores: 1)
+[pid: 10447|app: 0|req: 1/1] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:09 2020] GET /lottery => generated 106 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 2/2] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:10 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 3/3] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:10 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 4/4] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:10 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 5/5] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:11 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 6/6] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:11 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 7/7] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:11 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 8/8] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:11 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 9/9] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:12 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 10/10] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:12 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 11/11] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:12 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 12/12] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:13 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 13/13] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:13 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 14/14] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:13 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 15/15] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:13 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 16/16] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:14 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 17/17] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:14 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 18/18] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:14 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 19/19] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:14 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 20/20] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:15 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 21/21] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:15 2020] GET /lottery => generated 106 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+[pid: 10447|app: 0|req: 22/22] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:17 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 23/23] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:45:20 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 24/24] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 13:50:23 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 25/25] 177.138.195.78 () {32 vars in 464 bytes} [Sun May 17 13:56:58 2020] GET / => generated 2550 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 26/26] 177.138.195.78 () {32 vars in 464 bytes} [Sun May 17 13:57:03 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 27/27] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 14:33:57 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 28/28] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 14:33:59 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 29/29] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 14:33:59 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 30/30] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 14:34:00 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 31/31] 122.238.121.132 () {44 vars in 855 bytes} [Sun May 17 14:37:06 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 32/32] 196.219.180.138 () {32 vars in 466 bytes} [Sun May 17 15:45:37 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 33/33] 103.47.172.3 () {32 vars in 463 bytes} [Sun May 17 16:33:23 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 34/34] 190.122.144.78 () {32 vars in 464 bytes} [Sun May 17 16:55:18 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 35/35] 24.9.184.64 () {28 vars in 305 bytes} [Sun May 17 16:55:19 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 36/36] 167.172.42.230 () {40 vars in 629 bytes} [Sun May 17 21:38:57 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 37/37] 42.240.133.39 () {30 vars in 328 bytes} [Sun May 17 21:48:05 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.0 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 38/38] 180.233.120.178 () {32 vars in 466 bytes} [Sun May 17 21:51:40 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 39/39] 82.50.137.223 () {32 vars in 464 bytes} [Sun May 17 22:03:41 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 40/40] 82.50.137.223 () {32 vars in 470 bytes} [Sun May 17 22:03:41 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 41/41] 101.251.242.238 () {38 vars in 597 bytes} [Sun May 17 22:29:10 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 42/42] 103.90.145.6 () {32 vars in 463 bytes} [Sun May 17 22:33:44 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 43/43] 185.176.27.114 () {30 vars in 435 bytes} [Sun May 17 22:51:42 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /robots.txt
+[pid: 10447|app: 0|req: 44/44] 185.176.27.114 () {30 vars in 455 bytes} [Sun May 17 22:51:43 2020] GET /robots.txt => generated 2598 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 10447|app: 0|req: 45/45] 185.176.27.114 () {30 vars in 457 bytes} [Sun May 17 22:51:43 2020] GET /favicon.ico => generated 2601 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 46/46] 78.90.123.116 () {32 vars in 464 bytes} [Mon May 18 00:42:24 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /portal/redlion
+[pid: 10447|app: 0|req: 47/47] 162.243.140.90 () {34 vars in 422 bytes} [Mon May 18 02:31:23 2020] GET /portal/redlion => generated 2607 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 48/48] 167.172.42.230 () {40 vars in 629 bytes} [Mon May 18 04:10:53 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 49/49] 80.82.78.104 () {40 vars in 627 bytes} [Mon May 18 04:53:37 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 50/50] 128.14.134.134 () {34 vars in 488 bytes} [Mon May 18 06:33:43 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 51/51] 136.228.129.156 () {32 vars in 465 bytes} [Mon May 18 08:58:29 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 52/52] 80.82.78.104 () {40 vars in 627 bytes} [Mon May 18 11:42:14 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 53/53] 107.6.183.226 () {34 vars in 482 bytes} [Mon May 18 12:33:45 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /nmaplowercheck1589805298
+[pid: 10447|app: 0|req: 54/54] 101.133.136.70 () {32 vars in 532 bytes} [Mon May 18 12:35:01 2020] GET /nmaplowercheck1589805298 => generated 2637 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /evox/about
+[pid: 10447|app: 0|req: 55/55] 101.133.136.70 () {32 vars in 504 bytes} [Mon May 18 12:35:01 2020] GET /evox/about => generated 2595 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /sdk
+[pid: 10447|app: 0|req: 56/56] 101.133.136.70 () {34 vars in 520 bytes} [Mon May 18 12:35:17 2020] POST /sdk => generated 2575 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /HNAP1
+[pid: 10447|app: 0|req: 57/57] 101.133.136.70 () {32 vars in 494 bytes} [Mon May 18 12:35:21 2020] GET /HNAP1 => generated 2580 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 58/58] 101.133.136.70 () {28 vars in 308 bytes} [Mon May 18 12:35:32 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 59/59] 149.28.242.90 () {34 vars in 393 bytes} [Mon May 18 13:54:44 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 60/60] 198.108.66.241 () {34 vars in 394 bytes} [Mon May 18 17:53:19 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /manager/html
+[pid: 10447|app: 0|req: 61/61] 162.243.142.136 () {34 vars in 419 bytes} [Mon May 18 18:23:05 2020] GET /manager/html => generated 2601 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 62/62] 47.101.200.37 () {34 vars in 459 bytes} [Mon May 18 18:58:40 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 63/63] 80.82.68.67 () {30 vars in 432 bytes} [Mon May 18 20:09:24 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /robots.txt
+[pid: 10447|app: 0|req: 64/64] 80.82.68.67 () {30 vars in 452 bytes} [Mon May 18 20:09:25 2020] GET /robots.txt => generated 2598 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 10447|app: 0|req: 65/65] 80.82.68.67 () {30 vars in 454 bytes} [Mon May 18 20:09:26 2020] GET /favicon.ico => generated 2601 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 66/66] 181.191.98.220 () {32 vars in 465 bytes} [Tue May 19 04:04:06 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 67/67] 101.132.104.18 () {34 vars in 427 bytes} [Tue May 19 04:42:01 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 68/68] 47.101.201.176 () {34 vars in 460 bytes} [Tue May 19 05:26:26 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /portal/redlion
+[pid: 10447|app: 0|req: 69/69] 192.241.237.229 () {34 vars in 423 bytes} [Tue May 19 05:46:56 2020] GET /portal/redlion => generated 2607 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 70/70] 103.47.67.82 () {32 vars in 469 bytes} [Tue May 19 06:38:33 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 71/71] 103.47.239.60 () {32 vars in 470 bytes} [Tue May 19 06:43:32 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 72/72] 187.11.34.128 () {32 vars in 464 bytes} [Tue May 19 07:37:13 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 73/73] 181.210.89.168 () {32 vars in 464 bytes} [Tue May 19 07:40:24 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 74/74] 80.82.68.73 () {30 vars in 432 bytes} [Tue May 19 12:55:04 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /robots.txt
+[pid: 10447|app: 0|req: 75/75] 80.82.68.73 () {30 vars in 452 bytes} [Tue May 19 12:55:05 2020] GET /robots.txt => generated 2598 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 10447|app: 0|req: 76/76] 80.82.68.73 () {30 vars in 454 bytes} [Tue May 19 12:55:06 2020] GET /favicon.ico => generated 2601 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 77/77] 185.66.230.181 () {32 vars in 471 bytes} [Tue May 19 13:31:51 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 78/78] 103.47.239.176 () {32 vars in 465 bytes} [Tue May 19 13:44:00 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 79/79] 54.241.146.48 () {34 vars in 499 bytes} [Tue May 19 14:00:43 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 10447|app: 0|req: 80/80] 185.95.186.12 () {32 vars in 463 bytes} [Tue May 19 14:40:20 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+[pid: 10447|app: 0|req: 81/81] 122.238.121.42 () {42 vars in 823 bytes} [Tue May 19 14:52:34 2020] GET /lottery => generated 106 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 10447|app: 0|req: 82/82] 122.238.121.42 () {42 vars in 755 bytes} [Tue May 19 14:52:34 2020] GET /favicon.ico => generated 2598 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
