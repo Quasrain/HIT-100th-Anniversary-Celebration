@@ -1,0 +1,132 @@
+Not Found: /
+[pid: 23834|app: 0|req: 3/3] 139.162.119.197 () {32 vars in 401 bytes} [Fri May 29 09:36:16 2020] GET / => generated 2547 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /nmaplowercheck1590745593
+[pid: 23834|app: 0|req: 4/4] 106.14.83.56 () {32 vars in 530 bytes} [Fri May 29 09:46:33 2020] GET /nmaplowercheck1590745593 => generated 2637 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /sdk
+[pid: 23834|app: 0|req: 5/5] 106.14.83.56 () {34 vars in 518 bytes} [Fri May 29 09:46:33 2020] POST /sdk => generated 2575 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /evox/about
+[pid: 23834|app: 0|req: 6/6] 106.14.83.56 () {32 vars in 502 bytes} [Fri May 29 09:46:34 2020] GET /evox/about => generated 2595 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /HNAP1
+[pid: 23834|app: 0|req: 7/7] 106.14.83.56 () {32 vars in 492 bytes} [Fri May 29 09:46:44 2020] GET /HNAP1 => generated 2580 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 8/8] 106.14.83.56 () {28 vars in 306 bytes} [Fri May 29 09:47:07 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 9/9] 103.47.218.34 () {32 vars in 464 bytes} [Fri May 29 10:43:37 2020] GET / => generated 2550 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Internal Server Error: /addComment/QAQ/QwQ/祝福/1920
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 30, in addComment
+    comment.Comment = tmp[6]
+IndexError: list index out of range
+[pid: 23834|app: 0|req: 10/10] 122.238.121.81 () {42 vars in 880 bytes} [Fri May 29 11:06:31 2020] GET /addComment/QAQ/QwQ/%E7%A5%9D%E7%A6%8F/1920 => generated 59662 bytes in 28 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 11/11] 122.238.121.81 () {42 vars in 964 bytes} [Fri May 29 11:11:17 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F => generated 24 bytes in 1745 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 12/12] 122.238.121.81 () {42 vars in 980 bytes} [Fri May 29 11:16:02 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/drop%20database%20HIT; => generated 24 bytes in 1229 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 13/13] 122.238.121.81 () {42 vars in 984 bytes} [Fri May 29 11:17:03 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/delete%20from%20comment; => generated 24 bytes in 1978 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Internal Server Error: /addComment/计算机系/17级/7班/张三/delete from comment;
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1366, "Incorrect string value: '\\xE8\\xAE\\xA1\\xE7\\xAE\\x97...' for column 'Department' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 37, in addComment
+    comment.save()
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1366, "Incorrect string value: '\\xE8\\xAE\\xA1\\xE7\\xAE\\x97...' for column 'Department' at row 1")
+[pid: 23834|app: 0|req: 14/14] 122.238.121.81 () {44 vars in 1015 bytes} [Fri May 29 11:19:27 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/delete%20from%20comment; => generated 207603 bytes in 1159 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 15/15] 122.238.121.81 () {44 vars in 1015 bytes} [Fri May 29 11:19:36 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/delete%20from%20comment; => generated 24 bytes in 981 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 16/16] 122.238.121.81 () {44 vars in 1015 bytes} [Fri May 29 11:19:51 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/delete%20from%20comment; => generated 30 bytes in 1278 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 17/17] 122.238.121.81 () {42 vars in 832 bytes} [Fri May 29 11:20:35 2020] GET /like/1000000 => generated 12 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 18/18] 122.238.121.81 () {44 vars in 863 bytes} [Fri May 29 11:20:38 2020] GET /like/1000000 => generated 12 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 19/19] 122.238.121.81 () {44 vars in 863 bytes} [Fri May 29 11:20:38 2020] GET /like/1000000 => generated 12 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 20/20] 122.238.121.81 () {44 vars in 863 bytes} [Fri May 29 11:20:38 2020] GET /like/1000000 => generated 12 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+[pid: 23834|app: 0|req: 21/21] 122.238.121.81 () {44 vars in 863 bytes} [Fri May 29 11:20:39 2020] GET /like/1000000 => generated 12 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+[pid: 23834|app: 0|req: 22/22] 122.238.121.81 () {44 vars in 863 bytes} [Fri May 29 11:20:39 2020] GET /like/1000000 => generated 12 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+[pid: 23834|app: 0|req: 23/23] 122.238.121.81 () {44 vars in 863 bytes} [Fri May 29 11:20:39 2020] GET /like/1000000 => generated 12 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+Internal Server Error: /selectComment
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 49, in selectComment
+    x = int(tmp[2])
+IndexError: list index out of range
+[pid: 23834|app: 0|req: 24/24] 122.238.121.81 () {44 vars in 858 bytes} [Fri May 29 11:22:37 2020] GET /selectComment => generated 59390 bytes in 26 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 25/25] 122.238.121.81 () {42 vars in 838 bytes} [Fri May 29 11:22:39 2020] GET /selectComment/1 => generated 317 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 128 bytes (2 switches on core 0)
