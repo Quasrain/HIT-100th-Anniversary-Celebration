@@ -56,8 +56,8 @@ def addComment(request):
 # 选择第x页，每页100条
 def selectComment(request):
     data = models.Comment.objects.all()
-    tmp = request.path.split('/')
-    x = int(tmp[2])
+    tmp = request.path.split('-')
+    x = int(tmp[-1])
     if (x <= 0):
         left = 0
         right = len(data)
@@ -78,6 +78,7 @@ def selectComment(request):
         }
         ret.append(tmp)
     res = {
+        'status' : 200,
         'size' : len(data),
         'data' : ret,
     }
@@ -85,17 +86,18 @@ def selectComment(request):
 
 # 点赞功能，需要前端传输UID
 def like(request):
-    tmp = request.path.split('/')
-    uid = tmp[2]
+    tmp = request.path.split('-')
+    uid = tmp[-1]
     count = models.Comment.objects.get(UID = uid)
     models.Comment.objects.filter(UID = uid).update(Count = count.Count + 1)
     data = {
+        'status' : 200,
         'Count' : count.Count + 1,
     }
     return JsonResponse(data)
 
 
-# 抽取最后的幸运参与者，不急
+# 抽取最后的幸运参与者
 def lottery(request):
     data_top = models.Comment.objects.all().order_by('-Count')
     tot = len(data_top)
@@ -108,17 +110,20 @@ def lottery(request):
         x = random.randint(l, r)
         if x not in Set:
             Set.add(x)
-            res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment, data_top[x].Count, data_top[x].phone])
+            res.append([data_top[x].UID, data_top[x].Department, data_top[x].Grade, data_top[x].Identity, data_top[x].Name, data_top[x].Comment, data_top[x].Count, data_top[x].phone])
             cnt += 1
-    res = sorted(res, key = lambda x: x[4], reverse = True)
+    res = sorted(res, key = lambda x: x[6], reverse = True)
     ret = []
     for x in res:
         data = {
             'UID' : x[0],
-            'Name' : x[1],
-            'Tag' : x[2],
-            'Comment': x[3],
-            'phone' : x[4],
+            'Department' : x[1],
+            'Grade' : x[2],
+            'Identity' : x[3],
+            'Name' : x[4],
+            'Comment': x[5],
+            'Count' : x[6],
+            'phone' : x[7],
         }
         ret.append(data)
     data = {
