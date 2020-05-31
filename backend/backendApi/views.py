@@ -22,22 +22,33 @@ def check(str):
 # todo: 自动审核
 def addComment(request):
     comment = models.Comment()
-    tmp = request.path.split('/')
-    comment.Department = tmp[2]
-    comment.Grade = tmp[3]
-    comment.Identity = tmp[4]
-    comment.Name = tmp[5]
-    comment.Comment = tmp[6]
-    if check(tmp[2]) or check(tmp[3]) or check(tmp[4]) or check(tmp[5]) or check(tmp[6]):
+    str = request.path.split('/')[-1]
+    tmp = str.split('-')
+    comment.Department = tmp[0]
+    comment.Grade = tmp[1]
+    comment.Identity = tmp[2]
+    comment.Name = tmp[3]
+    comment.Comment = tmp[4]
+    comment.phone = tmp[5]
+    # 查询是否存在一样的数据
+    QAQ = models.Comment.objects.filter(Department = comment.Department, Grade = comment.Grade, Identity = comment.Identity, Name = comment.Name, Comment = comment.Comment, phone = comment.phone)
+    if len(QAQ) > 0:
         data = {
-            'Succ' : False,
+            'status' : 210,
+            'UID' : -1,
+        }
+        return JsonResponse(data)
+    # 自动审核内容
+    if check(tmp[0]) or check(tmp[1]) or check(tmp[2]) or check(tmp[3]) or check(tmp[4]):
+        data = {
+            'status' : 211,
             'UID' : -1,
         }
         return JsonResponse(data)
     comment.save()
     ret = comment.UID
     data = {
-        'Succ' : True,
+        'Succ' : 200,
         'UID' : ret,
     }
     return JsonResponse(data)
@@ -97,7 +108,7 @@ def lottery(request):
         x = random.randint(l, r)
         if x not in Set:
             Set.add(x)
-            res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment, data_top[x].Count])
+            res.append([data_top[x].UID, data_top[x].Name, data_top[x].Tag, data_top[x].Comment, data_top[x].Count, data_top[x].phone])
             cnt += 1
     res = sorted(res, key = lambda x: x[4], reverse = True)
     ret = []
@@ -107,12 +118,12 @@ def lottery(request):
             'Name' : x[1],
             'Tag' : x[2],
             'Comment': x[3],
+            'phone' : x[4],
         }
         ret.append(data)
     data = {
+        'status' : 200,
         'data' : ret,
     }
     return JsonResponse(data, safe = False, json_dumps_params={'ensure_ascii':False})
 
-
-# 选取

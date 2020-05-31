@@ -17,7 +17,7 @@
 其中每个字段都丢进百度文本内容审核。
 
 返回一个json，包含两个字段  
-- succ: true表示通过审核， false表示未通过审核
+- status: 200表示正常，210表示重复输入， 211表示未通过审核
 - UID: 一个正整数表示UID， 如果未通过审核返回-1
 
 ### 2.2 selectComment
@@ -43,11 +43,11 @@
 主要通过url的方式传输数据
 
 ### 3.1 addComent
-http://39.102.52.243/addComment/Department/Grade/Identity/Name/Comment    
-其中Department, Grade, Identity, Name, Comment字段可根据需要自行替换  
-例如 http://39.102.52.243/addComment/计算机系/17级/7班/张三/祝福
+http://39.102.52.243/addComment/Department/Grade/Identity/Name/Comment/phone    
+其中Department, Grade, Identity, Name, Comment, phone字段可根据需要自行替换  
+例如 http://39.102.52.243/addComment/计算机系/17级/7班/张三/祝福/123  
 
-返回一个正整数表示UID
+返回一个正整数表示UID,UID为7位数，从1000000开始
 
 ### 3.2 selectComment
 http://39.102.52.243/selectComment/x  

