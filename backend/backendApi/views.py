@@ -22,16 +22,14 @@ def check(str):
 # todo: 自动审核
 def addComment(request):
     comment = models.Comment()
-    str = request.path.split('/')[-1]
-    tmp = str.split('-')
-    comment.Department = tmp[0]
-    comment.Grade = tmp[1]
-    comment.Identity = tmp[2]
-    comment.Name = tmp[3]
-    comment.Comment = tmp[4]
-    comment.phone = tmp[5]
+    comment.Department = request.GET['Department']
+    comment.Grade = request.GET['Grade']
+    comment.Identity = request.GET['Identity']
+    comment.Name = request.GET['Name']
+    comment.Post = request.GET['Post']
+    comment.Phone = request.GET['Phone']
     # 查询是否存在一样的数据
-    QAQ = models.Comment.objects.filter(Department = comment.Department, Grade = comment.Grade, Identity = comment.Identity, Name = comment.Name, Comment = comment.Comment, phone = comment.phone)
+    QAQ = models.Comment.objects.filter(Department = comment.Department, Grade = comment.Grade, Identity = comment.Identity, Name = comment.Name, Post = comment.Post, Phone = comment.Phone)
     if len(QAQ) > 0:
         data = {
             'status' : 210,
@@ -39,25 +37,23 @@ def addComment(request):
         }
         return JsonResponse(data)
     # 自动审核内容
-    if check(tmp[0]) or check(tmp[1]) or check(tmp[2]) or check(tmp[3]) or check(tmp[4]):
+    if check(comment.Department) or check(comment.Grade) or check(comment.Identity) or check(comment.Name) or check(comment.Post):
         data = {
             'status' : 211,
             'UID' : -1,
         }
         return JsonResponse(data)
     comment.save()
-    ret = comment.UID
     data = {
         'Succ' : 200,
-        'UID' : ret,
+        'UID' : comment.UID,
     }
     return JsonResponse(data)
 
 # 选择第x页，每页100条
 def selectComment(request):
     data = models.Comment.objects.all()
-    tmp = request.path.split('-')
-    x = int(tmp[-1])
+    x = int(request.GET['Page'])
     if (x <= 0):
         left = 0
         right = len(data)
@@ -73,7 +69,7 @@ def selectComment(request):
             'Grade' : x.Grade,
             'Identity' : x.Identity,
             'Name' : x.Name,
-            'Comment': x.Comment,
+            'Post': x.Post,
             'Count': x.Count,
         }
         ret.append(tmp)
@@ -86,8 +82,7 @@ def selectComment(request):
 
 # 点赞功能，需要前端传输UID
 def like(request):
-    tmp = request.path.split('-')
-    uid = tmp[-1]
+    uid = request.GET['UID']
     count = models.Comment.objects.get(UID = uid)
     models.Comment.objects.filter(UID = uid).update(Count = count.Count + 1)
     data = {
@@ -99,7 +94,7 @@ def like(request):
 
 # 抽取最后的幸运参与者
 def lottery(request):
-    data_top = models.Comment.objects.all().order_by('-Count')
+    data_top = models.Post.objects.all().order_by('-Count')
     tot = len(data_top)
     res = []
     Set = set()
@@ -110,7 +105,7 @@ def lottery(request):
         x = random.randint(l, r)
         if x not in Set:
             Set.add(x)
-            res.append([data_top[x].UID, data_top[x].Department, data_top[x].Grade, data_top[x].Identity, data_top[x].Name, data_top[x].Comment, data_top[x].Count, data_top[x].phone])
+            res.append([data_top[x].UID, data_top[x].Department, data_top[x].Grade, data_top[x].Identity, data_top[x].Name, data_top[x].Post, data_top[x].Count, data_top[x].Phone])
             cnt += 1
     res = sorted(res, key = lambda x: x[6], reverse = True)
     ret = []
@@ -121,9 +116,9 @@ def lottery(request):
             'Grade' : x[2],
             'Identity' : x[3],
             'Name' : x[4],
-            'Comment': x[5],
+            'Post': x[5],
             'Count' : x[6],
-            'phone' : x[7],
+            'Phone' : x[7],
         }
         ret.append(data)
     data = {

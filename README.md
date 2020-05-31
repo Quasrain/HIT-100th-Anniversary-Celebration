@@ -46,22 +46,21 @@
 主要通过url的方式传输数据
 
 ### 3.1 addComent
-http://39.102.52.243/addComment-Department-Grade-Identity-Name-Comment-phone    
-其中Department, Grade, Identity, Name, Comment, phone字段可根据需要自行替换  
-例如 http://39.102.52.243/addComment-计算机系-17级-7班-张三-祝福-123  
+http://39.102.52.243/addComment?Department=department&Grade=grade&Identity=identity&Name=name&Post=post&Phone=phone  
+其中department, grade, identity, name, post, phone字段可根据需要自行替换  
 
 返回一个正整数表示UID,UID为7位数，从1000000开始
 
 ### 3.2 selectComment
-http://39.102.52.243/selectComment-x  
+http://39.102.52.243/selectComment?Page=x  
 x为所请求的页
 - x <= 0 表示弹幕模式，返回所有评论
 - x > 0 表示返回对应页的评论  
 
 ### 3.3 like
-http://39.102.52.243/like-UID  
-UID字段可根据需要自行替换  
-返回点赞后当前UID对应评论的like数
+http://39.102.52.243/like?UID=uid
+uid字段可根据需要自行替换  
+返回点赞后当前uid对应评论的like数
 
 ### 3.4 lottery
 http://39.102.52.243/lottery  
